@@ -42,7 +42,7 @@ h6 {
 }
 
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 
 img {
@@ -60,7 +60,7 @@ body {
 }
 /* HEADER  */
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 
   background-color: var(--white-color);
 
@@ -90,7 +90,7 @@ body {
 
 .site-nav .site-nav-list {
   display: block;
-  padding: 20px 0;
+  padding: 32px 0;
 
   color: var(--title-text-color);
   text-decoration: none;
@@ -136,7 +136,7 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding: 200px 452px;
+  padding: 200px 0px;
 }
 
 .hero .hero-title {
@@ -188,6 +188,10 @@ body {
 .advantage-list {
   display: flex;
 }
+
+.advantage-list .box {
+  width: 270px;
+}
 .advantage-list .box:not(:last-child) {
   margin-right: var(--main-margin);
 }
@@ -225,6 +229,10 @@ body {
   background-color: #f5f4fa;
 }
 
+.team-section {
+  padding: 94px 0;
+}
+
 .team-desctiption {
   font-size: 16px;
   line-height: 1.19;
@@ -245,7 +253,7 @@ body {
 }
 
 .image-description {
-  margin: 30px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -259,7 +267,11 @@ body {
   background-color: #2f303a;
   padding: 60px 0;
 }
+
 .logo-footer {
+  display: block;
+  margin-bottom: 20px;
+
   color: var(--white-color);
   text-decoration: none;
 
@@ -269,6 +281,9 @@ body {
   line-height: 1.19;
 }
 .address-company {
+  display: block;
+  margin-bottom: 9px;
+
   color: var(--white-color);
   font-style: normal;
 }
@@ -279,16 +294,16 @@ body {
   font-style: normal;
 }
 
-/* Portfolio products */
-
-.container-portfolio {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 94px 15px;
+.address .address-link:not(:last-child) {
+  margin-bottom: 9px;
 }
+
+/* Portfolio products */
 
 .product-section {
   background-color: var(--white-color);
+
+  padding: 94px 0;
 }
 
 .product-list {
@@ -311,6 +326,9 @@ body {
   color: var(--title-text-color);
   background-color: #f5f4fa;
   border-radius: 4px;
+
+  min-width: 22px;
+  min-height: 6px;
 }
 
 .product-list .product-button:hover,
@@ -342,8 +360,8 @@ body {
 }
 
 .title-description {
-  margin: 20px 0;
-  text-align: center;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .products {
